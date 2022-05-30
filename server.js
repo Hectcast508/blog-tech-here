@@ -21,7 +21,9 @@ const sess = {
 
 app.use(session(sess));
 
-const hbs = create({});
+const helpers = require('./utils/helpers');
+
+const hbs = create({helpers});
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
