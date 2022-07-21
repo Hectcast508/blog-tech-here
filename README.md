@@ -32,4 +32,4 @@ npm start
 
 ## LInk
 
-https://sheltered-bayou-69659.herokuapp.com/
+https://blog-tech-here.herokuapp.com/ 
